@@ -1,0 +1,144 @@
+.speech{
+    font-family: 'Times New Roman';
+    font-size:14px; 
+    color:black;
+}
+.direction{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14px;
+    color: black;
+    background-color: bisque;
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    color: black;
+}
+.direction:hover{
+    background-color: rgb(214, 227, 238);
+    color: rgb(95, 117, 44);
+
+}
+.MadameJourdain
+{
+    color: rgb(26, 199, 104);
+}
+.MonsieurJourdain{
+    color: rgb(149, 126, 212);
+}
+
+
+.name:hover {
+    border: 1px solid #2c8f6e;
+    padding: 10px;
+    text-shadow:2px 3px 5px rgb(61, 121, 81);
+    color: transparent;
+    
+}
+
+
+
+td{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: medium;
+    border: solid 1px;
+    text-align: center;
+    color:blanchedalmond;
+}
+ th {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: medium;
+    border: solid 1px;
+    text-align: center;
+    color: rgb(202, 19, 65);
+}
+tr {
+    background-color:rgb(241, 197, 232) ;
+}
+.MadameJourdain:hover {
+    filter:blur(1px);
+    border:3px rgb(184, 199, 247);
+    box-shadow:2px 2px rgb(1, 44, 19);
+}
+.MonsieurJourdain:hover{
+    filter:blur(1px);
+    border:3px rgb(172, 231, 160);
+    box-shadow:2px 2px rgb(47, 2, 88);  
+    color: transparent;
+}
+.Nicole:hover{
+    filter:blur(1px);
+    border:3px rgb(11, 22, 9);
+    box-shadow:2px 2px rgb(181, 147, 212);  
+    color: transparent;
+}
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+ul.navbar-horizontal li {
+    float:center;/* line up horizontally */
+    color:rgb(35, 15, 211);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    background-color:rgb(182, 162, 201);
+}
+  
+ul.navbar-horizontal a {
+    display:block;
+    padding:10px
+}
+  
+  /* on hover change the link color*/
+ul.navbar-horizontal a:hover {  
+    background-color: rgb(43, 11, 11);
+    color:rgb(223, 202, 202);
+  }
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .arrow {
+    border: solid rgb(236, 240, 182);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
