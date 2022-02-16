@@ -26,7 +26,7 @@
 .MonsieurJourdain{
     color: rgb(149, 126, 212);
 }
-.Nicole
+.NICOLE
 {
   color:blueviolet;
 }
@@ -77,9 +77,9 @@ tr {
     box-shadow:2px 2px rgb(47, 2, 88);  
     color: transparent;
 }
-.Nicole:hover{
+.NICOLE:hover{
     filter:blur(1px);
-    border:3px rgb(11, 22, 9);
+    border:3px rgb(223, 202, 202);
     box-shadow:2px 2px rgb(181, 147, 212);  
     color: transparent;
 }
